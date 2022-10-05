@@ -1,0 +1,87 @@
+
+
+Compiling your contracts...
+===========================
+> Compiling ./src/contracts/EthSwap.sol
+> Compilation warnings encountered:
+
+    project:/src/contracts/JanioToken.sol:55:5: Warning: Function state mutability can be restricted to view
+    function getBalanceByAddr(address _addr)public returns (uint256){
+    ^ (Relevant source part starts here and spans across multiple lines).
+
+> Compiled successfully using:
+   - solc: 0.5.16+commit.9c3226ce.Emscripten.clang
+
+
+Starting migrations...
+======================
+> Network name:    'development'
+> Network id:      1664896772159
+> Block gas limit: 30000000 (0x1c9c380)
+
+
+1_initial_migration.js
+======================
+
+   Deploying 'Migrations'
+   ----------------------
+   > transaction hash:    0xbb3a2ed44a1e9951917929f9f2288a9d8efe17e884d25850b0989a44a91351c8
+   > Blocks: 0            Seconds: 0
+   > contract address:    0xF11b1e542066ebB8a59945a4D31665017d6E35c1
+   > block number:        1
+   > block timestamp:     1664903083
+   > account:             0x88185a9Ee264a0f3976aD93E0d5E49BC68Eade70
+   > balance:             999.999235437625
+   > gas used:            226537 (0x374e9)
+   > gas price:           3.375 gwei
+   > value sent:          0 ETH
+   > total cost:          0.000764562375 ETH
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:      0.000764562375 ETH
+
+
+2_deploy_contracts.js
+=====================
+
+   Deploying 'JanioToken'
+   ----------------------
+   > transaction hash:    0x74bed6dbd71658b55f91dae2f634eb420907df78eaa720ba1c3e608a34298832
+   > Blocks: 0            Seconds: 0
+   > contract address:    0xe186C6Fdbc44716df5dbe0A4dE79432901C93d7c
+   > block number:        3
+   > block timestamp:     1664903083
+   > account:             0x88185a9Ee264a0f3976aD93E0d5E49BC68Eade70
+   > balance:             999.996586807866727271
+   > gas used:            787950 (0xc05ee)
+   > gas price:           3.171659837 gwei
+   > value sent:          0 ETH
+   > total cost:          0.00249910936856415 ETH
+
+
+   Deploying 'EthSwap'
+   -------------------
+   > transaction hash:    0xa4091cf901553b0946e874d71a2e9b6b6948953668601dc4f084d9c939c7db33
+   > Blocks: 0            Seconds: 0
+   > contract address:    0xb9aC4A4F440236eF9B2A3aE2241502BaD9C03a4A
+   > block number:        4
+   > block timestamp:     1664903083
+   > account:             0x88185a9Ee264a0f3976aD93E0d5E49BC68Eade70
+   > balance:             999.994687799254865247
+   > gas used:            614146 (0x95f02)
+   > gas price:           3.092112644 gwei
+   > value sent:          0 ETH
+   > total cost:          0.001899008611862024 ETH
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:     0.004398117980426174 ETH
+
+Summary
+=======
+> Total deployments:   3
+> Final cost:          0.005162680355426174 ETH
+

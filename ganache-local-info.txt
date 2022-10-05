@@ -1,0 +1,53 @@
+
+ganache v7.4.3 (@ganache/cli: 0.5.3, @ganache/core: 0.5.3)
+Starting RPC server
+
+Available Accounts
+==================
+(0) 0x88185a9Ee264a0f3976aD93E0d5E49BC68Eade70 (1000 ETH)
+(1) 0x5b4A92C19e71C9941cb3771A946c5A283619F7ba (1000 ETH)
+(2) 0x756E1a6BB17810FBbD95b838ECd9096d9b1dd6D6 (1000 ETH)
+(3) 0xF9c83a9eCaa9f205b0E089d3b5C109eAcc7B3956 (1000 ETH)
+(4) 0xfE27Ef8a8E150B08757023f15D5308520Ad8dAae (1000 ETH)
+(5) 0x20C22B1Bc0B2F3A45Bb45324a6Fdb2c958D31180 (1000 ETH)
+(6) 0xFE16f8c3D96798a31F66285ce08F9459698d452b (1000 ETH)
+(7) 0x4BCDD64E01f2F511621b792D840af1052fD14624 (1000 ETH)
+(8) 0x8a333F82c949A4F5B9da220Fc2A6CB67cFcCf632 (1000 ETH)
+(9) 0x20A7529823A4A932F314863754A0b995fa68245E (1000 ETH)
+
+Private Keys
+==================
+(0) 0x4129850e8833de933e0feca62c1c481b942d808dfcb8d5a8084ca7760ffe1cc5
+(1) 0xbbafb22bd404ca2c4b6b6739b431a2ef9462c86fac2743a55682b7806f6adc97
+(2) 0x012d4c5808ba05ea08338e2f72a5c6a364145528481634d3d6dd70c093b47d41
+(3) 0x706d65ead8d57b9961a1d7b9ba2887984bf60d90f494c6ae52f79ef667b5a4e3
+(4) 0x8cb785e24cbb596ef705e850d35502eab210b6134e3c8ac634865fa37716dbad
+(5) 0xd0dbbf89ca1977ae6fd6790c7f1d1f429ba43e30087c86165a6eb21375c4d745
+(6) 0x00add0b29d3a5375c342eee2f1c7a7280e73d832adb7d6349700743830f6e1af
+(7) 0x9cee83bacd1c81e6cd0086592fe2e52ac207d592a2b4a4213267fb66d5829e8b
+(8) 0xde8157374bbedd038de6e24ce090ecdd8dbaecbbb6538f0a6eb7b40fdcad456f
+(9) 0xee3fa56c7d807124c12a24507774fe04ff4bfd328f0a9bb27fac2ab0804b4ae8
+
+HD Wallet
+==================
+Mnemonic:      borrow real hip oven ozone try place announce stereo step tag junk
+Base HD Path:  m/44'/60'/0'/0/{account_index}
+
+Default Gas Price
+==================
+2000000000
+
+BlockGas Limit
+==================
+30000000
+
+Call Gas Limit
+==================
+50000000
+
+Chain Id
+==================
+1337
+
+RPC Listening on 192.168.2.201:8545
+

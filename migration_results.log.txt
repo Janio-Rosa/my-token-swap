@@ -1,0 +1,79 @@
+
+Compiling your contracts...
+===========================
+> Compiling ./src/contracts/EthSwap.sol
+> Compiled successfully using:
+   - solc: 0.5.16+commit.9c3226ce.Emscripten.clang
+
+
+Starting migrations...
+======================
+> Network name:    'development'
+> Network id:      1664588646539
+> Block gas limit: 30000000 (0x1c9c380)
+
+
+1_initial_migration.js
+======================
+
+   Replacing 'Migrations'
+   ----------------------
+   > transaction hash:    0x3ee93e191b14246c096342582564884bbda52faf46c71f7535531320314e74a8
+   > Blocks: 0            Seconds: 0
+   > contract address:    0xD4F3e441E6c26CBDa73A452E2f380a3b826C2eB8
+   > block number:        374
+   > block timestamp:     1664743613
+   > account:             0x8ed05c79CB85F76602DA816cD83d397ff2F7c1Ae
+   > balance:             999.774027087540214787
+   > gas used:            226537 (0x374e9)
+   > gas price:           2.500000008 gwei
+   > value sent:          0 ETH
+   > total cost:          0.000566342501812296 ETH
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:     0.000566342501812296 ETH
+
+
+2_deploy_contracts.js
+=====================
+
+   Replacing 'JanioToken'
+   ----------------------
+   > transaction hash:    0x6bbdff7809a07f1cc9c268ca66d64ceadb9e2888d845af6560ae7cf66c738679
+   > Blocks: 0            Seconds: 0
+   > contract address:    0xF8c4f9Eef4cBE5A8c6F40eab58aFf212BD82d9cB
+   > block number:        376
+   > block timestamp:     1664743613
+   > account:             0x8ed05c79CB85F76602DA816cD83d397ff2F7c1Ae
+   > balance:             999.772035690033842315
+   > gas used:            750796 (0xb74cc)
+   > gas price:           2.500000008 gwei
+   > value sent:          0 ETH
+   > total cost:          0.001876990006006368 ETH
+
+
+   Replacing 'EthSwap'
+   -------------------
+   > transaction hash:    0xc2d45ad3ed076056d5832fd7429277b7c22a8adfe77ad79cd0ea8a3af34d5280
+   > Blocks: 0            Seconds: 0
+   > contract address:    0x55e3571f6b1aB4Bb4a3988a019512decBFE43522
+   > block number:        377
+   > block timestamp:     1664743613
+   > account:             0x8ed05c79CB85F76602DA816cD83d397ff2F7c1Ae
+   > balance:             999.770500325028929147
+   > gas used:            614146 (0x95f02)
+   > gas price:           2.500000008 gwei
+   > value sent:          0 ETH
+   > total cost:          0.001535365004913168 ETH
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:     0.003412355010919536 ETH
+
+Summary
+=======
+> Total deployments:   3
+> Final cost:          0.003978697512731832 ETH
