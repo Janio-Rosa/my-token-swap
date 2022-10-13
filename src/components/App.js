@@ -39,16 +39,11 @@ class App extends Component {
       const networkId = await window.web3.eth.net.getId()
       //const addressEthSwap = EthSwap.networks[networkId].address
       //const networkData = EthSwap.networks[networkId];
-      const networkData = EthSwap.networks['1665018638366'];
 
-      if(networkData) {
-      }else{
-          alert('Contract not deployed');
-      } 
-      //const addressEthSwap = EthSwap.networks['1664896772159'].address
       //const addressEthSwap = EthSwap.networks['1665018638366'].address
       //EthSwap address on Goerli network
-      const addressEthSwap = "0x94c89911aDCEb261EBa3b852d17D03Bf31A8f01F";
+      //const addressEthSwap = "0x94c89911aDCEb261EBa3b852d17D03Bf31A8f01F";
+      const addressEthSwap = "0x89b2CD3550506ee65f624C776482D2055ecAE296";
 
       const myEthSwap = new window.web3.eth.Contract(abiEthSwap, addressEthSwap );
       this.setState({myEthSwap: myEthSwap})
@@ -58,11 +53,10 @@ class App extends Component {
   async loadTokenContracts() {
       const abiToken = Token.abi
       const networkId = await window.web3.eth.net.getId()
-      //const addressToken = EthSwap.networks[networkId].address
-      //const addressToken = Token.networks['1664896772159'].address
       //const addressToken = Token.networks['1665018638366'].address
       //Token address on Goerli network
-      const addressToken = "0x004e2917E90bf02E29f5B09bF99c7053906C10a9"; 
+      //const addressToken = "0x004e2917E90bf02E29f5B09bF99c7053906C10a9"; 
+      const addressToken = "0x7AD018ac6227e106711A641914db63Ff07939919"; 
 
       const myToken = new window.web3.eth.Contract(abiToken, addressToken );
       this.setState({myToken: myToken})
