@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 //import logo from '../logo.png';
-import ethLogo from '../eth-logo.png';
+//import ethLogo from '../eth-logo.png';
 //import tokenLogo from '../token-image.jpg';
-import tokenLogo from '../token-logo.png';
+//import tokenLogo from '../token-logo.png';
 import BuyForm from './BuyForm'
 import SellForm from './SellForm'
 class Main extends Component {
