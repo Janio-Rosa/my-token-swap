@@ -1,6 +1,5 @@
-//SPDX Licence Identifier: MIT
-
-pragma solidity ^0.5.1;
+//SPDX-License-Identifier: MIT
+pragma solidity ^0.8.1;
 
 contract JanioToken {
 
@@ -24,7 +23,7 @@ contract JanioToken {
     mapping(address => uint256) public balanceOf;
     mapping(address => mapping(address => uint256)) public allowance;
 
-    constructor() public {
+    constructor()  {
         balanceOf[msg.sender] = totalSupply;
     }
 
@@ -52,7 +51,7 @@ contract JanioToken {
         return true;
     }
 
-    function getBalanceByAddr(address _addr)public returns (uint256){
+    function getBalanceByAddr(address _addr)public view returns (uint256){
         return balanceOf[_addr];
     }	
 }
