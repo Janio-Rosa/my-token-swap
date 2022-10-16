@@ -1,36 +1,111 @@
 
+eth_getBalance
+eth_blockNumber
+eth_blockNumber
+eth_blockNumber
+eth_blockNumber
+eth_blockNumber
+eth_blockNumber
+eth_blockNumber
+
+
+
+
+
+
+
+
+eth_blockNumber
+eth_blockNumber
+eth_blockNumber
+eth_blockNumber
+eth_blockNumber
+eth_blockNumber
+eth_blockNumber
+eth_blockNumber
+eth_blockNumber
+eth_blockNumber
+eth_blockNumber
+eth_blockNumber
+eth_blockNumber
+eth_blockNumber
+eth_blockNumber
+net_version
+net_version
+eth_blockNumber
+eth_blockNumber
+eth_getBalance
+eth_getBalance
+eth_getBalance
+eth_getBalance
+eth_getBalance
+eth_getBalance
+eth_blockNumber
+eth_blockNumber
+eth_blockNumber
+eth_blockNumber
+net_version
+eth_getBalance
+eth_getBalance
+eth_getBalance
+eth_getBlockByNumber
+eth_getBalance
+eth_getBalance
+eth_getBalance
+eth_blockNumber
+eth_blockNumber
+eth_blockNumber
+eth_blockNumber
+eth_blockNumber
+eth_getTransactionCount
+eth_blockNumber
+eth_estimateGas
+eth_getCode
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_blockNumber
+^C
+Received shutdown signal: SIGINT
+Shutting down…
+Server has been shut down
+janio@janio-VirtualBox:~$
+janio@janio-VirtualBox:~$ ganache --host 0.0.0.0
 ganache v7.4.3 (@ganache/cli: 0.5.3, @ganache/core: 0.5.3)
 Starting RPC server
 
 Available Accounts
 ==================
-(0) 0x88185a9Ee264a0f3976aD93E0d5E49BC68Eade70 (1000 ETH)
-(1) 0x5b4A92C19e71C9941cb3771A946c5A283619F7ba (1000 ETH)
-(2) 0x756E1a6BB17810FBbD95b838ECd9096d9b1dd6D6 (1000 ETH)
-(3) 0xF9c83a9eCaa9f205b0E089d3b5C109eAcc7B3956 (1000 ETH)
-(4) 0xfE27Ef8a8E150B08757023f15D5308520Ad8dAae (1000 ETH)
-(5) 0x20C22B1Bc0B2F3A45Bb45324a6Fdb2c958D31180 (1000 ETH)
-(6) 0xFE16f8c3D96798a31F66285ce08F9459698d452b (1000 ETH)
-(7) 0x4BCDD64E01f2F511621b792D840af1052fD14624 (1000 ETH)
-(8) 0x8a333F82c949A4F5B9da220Fc2A6CB67cFcCf632 (1000 ETH)
-(9) 0x20A7529823A4A932F314863754A0b995fa68245E (1000 ETH)
+(0) 0xF21af95215F6e93652db42D539CEB6eBaa6E8D3f (1000 ETH)
+(1) 0xCaC72c8c4b6ae924d46B8Dd9Ba18120E70a841a7 (1000 ETH)
+(2) 0x95Af7E3460DdDABa009553c4175B1A13E46eAa5C (1000 ETH)
+(3) 0xdF8C3aa90FcFfE1471BAF33394f7054ac183DbA2 (1000 ETH)
+(4) 0xf68a53C5382154DBC7ab8D2ad17E93a8FBf3dc79 (1000 ETH)
+(5) 0x4FC95813bb589e22755E4266ca0B97e577ce363f (1000 ETH)
+(6) 0x2D1da464dAA3DEC0b347c6E4013e6780F926AFC3 (1000 ETH)
+(7) 0x39dF9187CeB4aF4323D2Fd7eDC33463F0991d331 (1000 ETH)
+(8) 0x9a3AC10dC41B56BAD6F37DbdB61E254caE403D46 (1000 ETH)
+(9) 0x1DC97292C0DC4dc02c57a1e13F0a3d1437D48097 (1000 ETH)
 
 Private Keys
 ==================
-(0) 0x4129850e8833de933e0feca62c1c481b942d808dfcb8d5a8084ca7760ffe1cc5
-(1) 0xbbafb22bd404ca2c4b6b6739b431a2ef9462c86fac2743a55682b7806f6adc97
-(2) 0x012d4c5808ba05ea08338e2f72a5c6a364145528481634d3d6dd70c093b47d41
-(3) 0x706d65ead8d57b9961a1d7b9ba2887984bf60d90f494c6ae52f79ef667b5a4e3
-(4) 0x8cb785e24cbb596ef705e850d35502eab210b6134e3c8ac634865fa37716dbad
-(5) 0xd0dbbf89ca1977ae6fd6790c7f1d1f429ba43e30087c86165a6eb21375c4d745
-(6) 0x00add0b29d3a5375c342eee2f1c7a7280e73d832adb7d6349700743830f6e1af
-(7) 0x9cee83bacd1c81e6cd0086592fe2e52ac207d592a2b4a4213267fb66d5829e8b
-(8) 0xde8157374bbedd038de6e24ce090ecdd8dbaecbbb6538f0a6eb7b40fdcad456f
-(9) 0xee3fa56c7d807124c12a24507774fe04ff4bfd328f0a9bb27fac2ab0804b4ae8
+(0) 0x3038015635daccb88780bc41825bc19400101d51fdec5c6924c86580e219b269
+(1) 0xefe00abf2fe0e88e9ecce1c92443678797151a1f015ec2737d9da5a8fbfc0990
+(2) 0x433e884b360fe62685aece5bcbd542bde7ca70dd6fa6723af3e5855219e6c04b
+(3) 0x269e11089ce4e2f87d160a7d051a0193bc7e5244e00a07776423a80baf4ae53e
+(4) 0x0a9b92b8d0a423f0b6627ea7bb7aadb7bdb04acc8f930ad28e3b058c8a2ca881
+(5) 0xe5206e62958c3f7b83d85b9111346f1223fead45fc1df8ac71807cd1aaceb19c
+(6) 0x93cebe30b4c85061136005b286df49d3a8c91b9f50221afa56ee0af2758f9999
+(7) 0x9058381b5ebe433df342848ad90029ffe676fd2a4d70cd8d0576aa753ed6edea
+(8) 0xd5d90a4181fc9a3ec7d33a03900243b15620f56733b68fed2ff1cd24daaf3ea6
+(9) 0x32897c46721ed5a7e80ce7980e35db02a4a5fb30f4347ba39a7973c7a5cb6efc
 
 HD Wallet
 ==================
-Mnemonic:      borrow real hip oven ozone try place announce stereo step tag junk
+Mnemonic:      void absurd skate wait service doll useless rival dice side attend swap
 Base HD Path:  m/44'/60'/0'/0/{account_index}
 
 Default Gas Price
@@ -49,5 +124,7 @@ Chain Id
 ==================
 1337
 
-RPC Listening on 192.168.2.201:8545
+RPC Listening on 0.0.0.0:8545
+eth_blockNumber
+
 
