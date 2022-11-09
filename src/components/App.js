@@ -13,7 +13,7 @@ class App extends Component {
   async componentWillMount() {
       await this.loadWeb3();
 //      console.log(window.web3);
-      const result = await this.loadBlockchainData();
+//      const result = await this.loadBlockchainData();
 //      if(result)
           this.setState({loading: false})
   }
@@ -37,6 +37,10 @@ class App extends Component {
   async loadEthContracts() {
       const abiEthSwap = EthSwap.abi
       const networkId = await window.web3.eth.net.getId()
+      console.log("Network ID: ", networkId);
+      if(networkId===13){
+
+      }
       //const addressEthSwap = EthSwap.networks[networkId].address
       //const networkData = EthSwap.networks[networkId];
 
@@ -53,6 +57,7 @@ class App extends Component {
   async loadTokenContracts() {
       const abiToken = Token.abi
       const networkId = await window.web3.eth.net.getId()
+      console.log("Network ID: ", networkId);
       //const addressToken = Token.networks['1665018638366'].address
       //Token address on Goerli network
       //const addressToken = "0xe6cb17D91be2426FBbf872a483234f177Ab8855F";  //Goerli

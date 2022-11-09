@@ -20,7 +20,7 @@ class Main extends Component {
 
     let content
 
-    if(this.state.currentForm == 'buy'){
+    if(this.state.currentForm === 'buy'){
         content = <BuyForm ethBalance={this.props.ethBalance}
                        tokenBalance={this.props.tokenBalance}
                        buyTokens={this.props.buyTokens} />
