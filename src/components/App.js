@@ -13,7 +13,7 @@ class App extends Component {
   async componentWillMount() {
       await this.loadWeb3();
 //      console.log(window.web3);
-//      const result = await this.loadBlockchainData();
+      const result = await this.loadBlockchainData();
 //      if(result)
           this.setState({loading: false})
   }
@@ -46,14 +46,15 @@ class App extends Component {
 
       //const addressEthSwap = EthSwap.networks['1665018638366'].address
       //EthSwap address on Goerli network
-      //const addressEthSwap = "0xaA537eE86a4AA92C0f7B4b81755696eE9c59dcaB";  //Goerli
-      const addressEthSwap = "0x5050a99908D274d877576c774FF8C605D2488F3F";
+      const addressEthSwap = "0xaA537eE86a4AA92C0f7B4b81755696eE9c59dcaB";  //Goerli
+      //const addressEthSwap = "0x5050a99908D274d877576c774FF8C605D2488F3F"; //locally - probably will have to renew the addresses, since at every ganache restart, the addresses are renewed
       //const addressEthSwap = "0x94c89911aDCEb261EBa3b852d17D03Bf31A8f01F";
       //const addressEthSwap = "0x89b2CD3550506ee65f624C776482D2055ecAE296";
 
       const myEthSwap = new window.web3.eth.Contract(abiEthSwap, addressEthSwap );
       this.setState({myEthSwap: myEthSwap})
       console.log(myEthSwap);
+      
   }
 
   async loadTokenContracts() {
@@ -62,8 +63,8 @@ class App extends Component {
       console.log("Network ID: ", networkId);
       //const addressToken = Token.networks['1665018638366'].address
       //Token address on Goerli network
-      //const addressToken = "0xe6cb17D91be2426FBbf872a483234f177Ab8855F";  //Goerli
-      const addressToken = "0xBAa8388B0449C0D8a3ddd130FEcb897910247B47"; 
+      const addressToken = "0xe6cb17D91be2426FBbf872a483234f177Ab8855F";  //Goerli
+      //const addressToken = "0xBAa8388B0449C0D8a3ddd130FEcb897910247B47";  //locally
       //const addressToken = Token.networks['1665018638366'].address
       //Token address on Goerli network
       //const addressToken = "0x004e2917E90bf02E29f5B09bF99c7053906C10a9"; 
